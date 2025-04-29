@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie ticket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Mada:wght@200..900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+
+    <header>
+
+        <div class="logo">
+            <img src="./imgae/logo.png" alt="">
+        </div>
+        <div class="title">
+            <h1><span>Movie</span> Ticket</h1>
+        </div>
+
+        <div class="discrption">
+            <p>To follow and book movie viewing parties</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="title">
+          <h2>Sign Up</h2>
+        </div>
+        <form action="./login.html" method="post">
+            <div class="inp">
+              <input type="username" name="username" placeholder="Username" required minlength="3" ><br><br>
+              <input type="email" name="email" placeholder="Email" required><br><br>
+              <input type="password" name="password" placeholder="Password" required  minlength="6" maxlength="16"><br><br>
+              <input type="password" name="Repeat_password" placeholder="Repeat Password" required><br><br>
+            </div>
+            <div class="sup">
+              <button type="submit" name="Sign_up">Sign Up</button>
+            </div>
+          </form>
+
+            <div class="log_in">
+              <p>I already have an account <a href="./login.html">Click to log in</a></p>
+            </div>
+            <div class="contact">
+              <span>-----------------  Follow ads  ------------------</span>
+
+              <div class="icons">
+                <i data-feather="facebook"></i>
+                <i data-feather="instagram"></i>
+                <i data-feather="youtube"></i>
+              </div>
+
+            </div>
+
+    </main>
+
+    <script src="./icon.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
